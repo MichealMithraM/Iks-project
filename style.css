@@ -22,9 +22,7 @@
     width: 1050px;
  }
  
-  .header{
-    position: sticky;
-    z-index: 2;
+.header{
     top: 0;
     left: 0;
     width: 100%;
@@ -33,8 +31,14 @@
     color: #dcdde1;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0 10px;
+    align-items: start;
+    z-index: 5;
+    position: fixed;
+   
+}
+
+.sidebar li{
+    padding: 5px;
 }
 .logo{
     font-size: 20px;
